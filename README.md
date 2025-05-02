@@ -18,9 +18,9 @@ INFS website uses [embedded vimeo video player][2]. The video content is domain 
 
 Once you have the url, you can use any of the below two methods:
 
-### Using yt-dlp
+### Using yt-dlp 
 
-[yt-dlp][3] Supports downloading the whole video given a `m3u8` playlist url. 
+[yt-dlp][3] Supports downloading the whole video given a `m3u8` playlist url. This is much faster as it downloads segments in parallel.
 
 Usage: ```yt-dlp "<m3u8_url>"```
 
