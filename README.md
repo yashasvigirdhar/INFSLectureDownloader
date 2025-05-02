@@ -22,14 +22,13 @@ Once you have the url, you can use any of the below two methods:
 
 [yt-dlp][3] Supports downloading the whole video given a `m3u8` playlist url. 
 
-Usage:
-
-```yt-dlp "<m3u8_url>"```
+Usage: ```yt-dlp "<m3u8_url>"```
 
 ### Directly using ffmpeg
 
-We can pass the `m3u8` playlist url directly to ffmpeg. See `vimeo_downloader.py` script in this repo which is a small wrapper over it.
+We can pass the `m3u8` playlist url directly to ffmpeg. See `downloader.py` script in this repo which is a small wrapper over it.
 
+Usage: ```python downloader.py``` . The script will then interactively ask for the playlist url.
 
 ## More Information about HLS
 
